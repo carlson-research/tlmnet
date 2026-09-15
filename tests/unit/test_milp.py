@@ -3,8 +3,11 @@ import numpy as np
 from sklearn.datasets import make_classification
 from tlmnet import TlmMilpClassifier
 
+
 def test_tlm_milp_classifier_basic():
-    X, y = make_classification(n_samples=50, n_features=10, n_informative=5, random_state=42)
+    X, y = make_classification(
+        n_samples=50, n_features=10, n_informative=5, random_state=42
+    )
     clf = TlmMilpClassifier(max_features=3, C=1.0)
     clf.fit(X, y)
 
@@ -20,6 +23,7 @@ def test_tlm_milp_classifier_basic():
     preds = clf.predict(X)
     assert preds.shape == (50,)
     assert set(preds).issubset(set(np.unique(y)))
+
 
 def test_tlm_milp_classifier_multiclass_error():
     X = np.random.randn(30, 5)

@@ -95,9 +95,7 @@ class TlmMilpClassifier(ClassifierMixin, BaseEstimator):
             constraints.append(LinearConstraint(A_sparse, 0, self.max_features))
 
         # Solve MILP
-        res = milp(
-            c=c, integrality=integrality, bounds=bounds, constraints=constraints
-        )
+        res = milp(c=c, integrality=integrality, bounds=bounds, constraints=constraints)
 
         if not res.success:
             u_opt = np.zeros(n_features)
