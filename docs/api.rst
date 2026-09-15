@@ -1,20 +1,14 @@
 API Reference
 =============
 
-This page lists the public Python API for ``calfcv``.
+This page lists the public Python API for ``tlmnet``.
 
-.. currentmodule:: calfcv
+.. currentmodule:: tlmnet
 
 Estimators
 ----------
 
-.. autoclass:: Calf
-   :members:
-   :inherited-members:
-   :undoc-members:
-   :show-inheritance:
-
-.. autoclass:: CalfCV
+.. autoclass:: TlmMilpClassifier
    :members:
    :inherited-members:
    :undoc-members:

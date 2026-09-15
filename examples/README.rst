@@ -1,30 +1,34 @@
 =============================
-CalfCV Examples Gallery
+tlmnet Examples Gallery
 =============================
 
 This gallery provides practitioner-focused examples demonstrating how to leverage
-``CalfCV`` for automated hyperparameter tuning, dynamic noise suppression, and
-highly interpretable feature selection.
+``TlmMilpClassifier`` for exact ternary linear modeling, strict :math:`L_0` feature
+cardinality budgeting, and sparse text classification.
 
-Together, these scripts illustrate how ``CalfCV`` trades upfront computational
-time for robust generalization, yielding simple integer-weighted models that
-match the predictive power of continuous optimization techniques.
+Together, these scripts illustrate how exact Mixed-Integer Linear Programming (MILP)
+replaces greedy heuristic approximations, yielding globally optimal integer-weighted
+models compliant with Scikit-Learn 1.6+ workflows.
 
 Gallery Highlights
 ------------------
 
-* **Dynamic Noise Suppression:**
-  Demonstrates how ``CalfCV`` dynamically prunes pure noise features without requiring a hardcoded feature count target (``k``), protecting downstream classifiers from overfitting.
-  *(See: CALF as a Supervised Feature Selection Preprocessor)*
+* **Exact L0 Feature Selection Budgeting:**
+  Demonstrates how to enforce hard integer cardinality constraints using the ``max_features`` parameter on the Breast Cancer dataset to build ultra-sparse, highly interpretable scorecards.
+  *(See: Exact L0 Sparsity Budgeting on Breast Cancer Dataset)*
 
-* **Clinical Interpretability vs. Continuous Weights:**
-  Validates the estimator on real-world medical data. Compares ``CalfCV`` against L1 (Lasso) and RFE, showing how discrete ±1 weights create a highly interpretable aggregate scorecard with competitive ROC-AUC.
-  *(See: Feature Selection Sparsity: CALF vs. L1 & RFE)*
+* **Multiclass One-vs-Rest Text Classification:**
+  Demonstrates how ``TlmMilpClassifier`` integrates seamlessly with Scikit-Learn's ``OneVsRestClassifier`` to perform exact multi-class document classification.
+  *(See: Multilabel Text Document Classification with Exact MILP One-vs-Rest)*
 
-* **Runtime vs. Performance Benchmarking:**
-  Quantifies the computational cost of the internal grid search. Illustrates that the modest increase in fit time buys optimal predictive generalization and extreme model sparsity.
-  *(See: Runtime vs. Classifier Performance Trade-offs)*
+* **Runtime Scaling & Solver Performance:**
+  Quantifies branch-and-bound solve times across varying feature dimensions (:math:`p`) and sample sizes (:math:`n`).
+  *(See: MILP Solve Time vs. Feature & Sample Dimensions)*
 
-* **Decision Calibration & Probabilities:**
-  Proves that despite utilizing discrete integer weights, ``CalfCV`` produces calibrated probability estimates via a sigmoid transformation, allowing for standard precision-recall threshold tuning.
-  *(See: Decision Threshold Calibration)*
+* **Decision Boundaries & Surface Visualization:**
+  Visualizes the discrete, quantized decision surfaces created by ternary weight vectors :math:`w_j \in \{-1, 0, 1\}` on 2D feature spaces.
+  *(See: Decision Boundaries & Margin Scores)*
+
+* **Sparse Text Matrix Classification:**
+  Shows how to pair ``TfidfVectorizer`` natively with ``TlmMilpClassifier`` using sparse SciPy block matrices.
+  *(See: Sparse Text Classification with Vocabulary Limits)*

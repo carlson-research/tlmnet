@@ -1,9 +1,9 @@
 GitHub Actions CI/CD Architecture
 =================================
 
-This document details the GitHub Actions workflows for ``calfcv``. The CI/CD pipeline is designed around three core principles: **empirical reliability**, **single-source dependency management**, and **automated quality control**.
+This document details the GitHub Actions workflows for ``tlmnet``. The CI/CD pipeline is designed around three core principles: **empirical reliability**, **single-source dependency management**, and **automated quality control**.
 
-Because ``calfcv`` is an open-source library running on standard GitHub-hosted runners, compute time is optimized to guarantee total API and packaging integrity without unnecessary build fragility.
+Because ``tlmnet`` is an open-source library running on standard GitHub-hosted runners, compute time is optimized to guarantee total API and packaging integrity without unnecessary build fragility.
 
 Architectural Rationale
 -----------------------
@@ -29,7 +29,7 @@ Publishing a package to PyPI is permanent—once a version tag is pushed, it can
 Sphinx-Gallery Execution & Artifact Caching
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Generating the documentation gallery requires fitting ``calfcv`` estimators on datasets like 20 Newsgroups. Running full fits on every documentation commit risks external network timeouts when fetching raw datasets.
+Generating the documentation gallery requires fitting ``tlmnet`` estimators on datasets like 20 Newsgroups. Running full fits on every documentation commit risks external network timeouts when fetching raw datasets.
 
 **Why:** ``docs.yml`` implements ``actions/cache`` on ``docs/_build`` and ``docs/auto_examples``, keyed against the hash of ``examples/**/*.py``. If an edit is made strictly to core code or docstrings without altering the gallery scripts, Sphinx reuses the previously generated HTML and plots, dramatically speeding up deployment while ensuring stability.
 

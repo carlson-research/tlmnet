@@ -1,9 +1,7 @@
-.. CalfCV documentation master file
-
-CalfCV documentation
+tlmnet documentation
 ====================
 
-``calfcv`` provides discrete step-forward feature selection and integer weighting for linear classification models in Scikit-Learn workflows.
+``tlmnet`` provides exact Mixed-Integer Linear Programming (MILP) solvers for Quantized Statistical Learning with Ternary Linear Models (TLMs) with weights with weights :math:`w_j \in \{-1, 0, 1\}`.
 
 .. toctree::
    :maxdepth: 2

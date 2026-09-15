@@ -1,4 +1,4 @@
-# Makefile for calfcv project and Sphinx documentation
+# Makefile for the tlmnet project and Sphinx documentation
 
 # Variables for Sphinx documentation
 SPHINXOPTS    ?=
@@ -42,7 +42,7 @@ release:
 ifndef version
 	$(error Missing version. Usage: make release version=X.Y.Z)
 endif
-	git add src/calfcv/_version.py docs/changelog.rst pyproject.toml
+	git add src/tlmnet/_version.py CHANGELOG.md pyproject.toml
 	git commit -m "bump: release v$(version)"
 	git tag -a v$(version) -m "Release v$(version)"
 	git push origin main

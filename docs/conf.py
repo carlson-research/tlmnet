@@ -13,7 +13,7 @@ with open(pyproject_path, "rb") as f:
 
 # Extract standard project metadata
 project_meta = pyproject_data.get("project", {})
-project = project_meta.get("name", "calfcv")
+project = project_meta.get("name", "tlmnet")
 
 authors_list = project_meta.get("authors", [])
 author = ", ".join([a.get("name", "") for a in authors_list if "name" in a])

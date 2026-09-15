@@ -4,73 +4,98 @@ User Guide
 Overview
 --------
 
-``calfcv`` implements the Coarse Approximation Linear Function (CALF) algorithm integrated with Cross-Validation[cite: 7].
+``tlmnet`` provides exact optimization for Quantized Statistical Learning with Ternary Linear Models (TLMs). The core estimator, ``TlmMilpClassifier``, optimizes linear models whose feature weights are restricted to discrete ternary states:
+
+.. math::
+
+   w_j \in \{-1, 0, 1\}
+
+Instead of relying on greedy heuristic approximations or continuous :math:`L_1` shrinkage penalties, ``tlmnet`` uses Mixed-Integer Linear Programming (MILP) via ``scipy.optimize.milp`` to identify globally optimal weight vectors.
 
 Mathematical Background
 -----------------------
 
-Instead of optimizing continuous weights via gradient descent or :math:`L_1 / L_2` shrinkage penalties, ``calfcv`` uses a greedy step-forward selection routine that assigns discrete weight values (:math:`\{-1, 0, 1\}`) to selected variables, optimizing target metrics such as the AUC-ROC or :math:`t`-statistic directly[cite: 7].
+Decision Variable Splitting
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To express non-convex ternary weight constraints within a linear programming framework, each weight :math:`w_j` is decomposed into two binary indicator variables:
+
+.. math::
+
+   w_j = u_j - v_j, \quad \text{where } u_j, v_j \in \{0, 1\}
+
+To prevent simultaneous activation (:math:`u_j=1` and :math:`v_j=1`), the model enforces mutual exclusivity:
+
+.. math::
+
+   u_j + v_j \le 1 \quad \forall j \in \{1, \dots, p\}
+
+Soft-Margin MILP Formulation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Given a dataset :math:`(X, y)` with binary targets :math:`y_i \in \{-1, +1\}`, ``TlmMilpClassifier`` minimizes total classification slack penalties :math:`\sum_{i=1}^n \xi_i`:
+
+.. math::
+
+   \min_{u, v, \xi} C \sum_{i=1}^n \xi_i
+
+subject to the classification margin constraints:
+
+.. math::
+
+   y_i \left( \sum_{j=1}^p X_{ij} (u_j - v_j) \right) + \xi_i \ge 1, \quad \xi_i \ge 0
+
+Exact L0 Feature Budgeting
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+An exact upper bound on feature selection cardinality can be imposed via the ``max_features`` parameter, enforcing a strict :math:`L_0` constraint:
+
+.. math::
+
+   \sum_{j=1}^p (u_j + v_j) \le k
 
 Pipeline Patterns & Preprocessing
 ---------------------------------
 
-Because ``Calf`` relies on direct addition and subtraction of feature values, **data scaling is strictly required**.
+Feature Standardization
+^^^^^^^^^^^^^^^^^^^^^^^
 
-Dense Data (Standardization)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-For dense numeric datasets (e.g., biological or financial data), features must be centered at zero. You should always assemble ``Calf`` or ``CalfCV`` within a Scikit-Learn pipeline using ``StandardScaler``.
+Because feature values directly multiply discrete weights :math:`w_j \in \{-1, 0, 1\}`, feature scaling heavily influences margin penalties. Dense numeric features should be standardized to zero mean and unit variance using ``StandardScaler``.
 
 .. code-block:: python
 
     from sklearn.pipeline import Pipeline
     from sklearn.preprocessing import StandardScaler
-    from calfcv import CalfCV
+    from tlmnet import TlmMilpClassifier
 
     clf = Pipeline([
         ('scaler', StandardScaler()),
-        ('calf', CalfCV(cv=5, n_jobs=-1))
+        ('tlm', TlmMilpClassifier(max_features=5, C=1.0))
     ])
 
-Sparse Text Data (TF-IDF)
-^^^^^^^^^^^^^^^^^^^^^^^^^
-For high-dimensional text data (e.g., IMDB reviews or 20 Newsgroups), using ``StandardScaler(with_mean=True)`` will destroy matrix sparsity and crash your memory. Instead, pair ``Calf`` with ``TfidfVectorizer``. The algorithm natively handles SciPy sparse matrices and uses non-zero TF-IDF frequencies directly.
+Sparse Data Support
+^^^^^^^^^^^^^^^^^^^
 
-.. code-block:: python
+``TlmMilpClassifier`` natively processes sparse data representations. By leveraging ``scipy.sparse`` block matrix assembly, it constructs the constraint equations directly from ``CSR``, ``CSC``, or ``COO`` matrices without ever converting the dataset to a dense array. This makes it highly efficient for high-dimensional text classification pipelines using ``TfidfVectorizer``.
 
-    from sklearn.pipeline import Pipeline
-    from sklearn.feature_extraction.text import TfidfVectorizer
-    from calfcv import Calf
+Hyperparameter Configuration
+----------------------------
 
-    clf = Pipeline([
-        ('tfidf', TfidfVectorizer(sublinear_tf=True, max_df=0.5)),
-        ('calf', Calf(order_col=True))
-    ])
-
-
-Estimator Selection: Calf vs. CalfCV
-------------------------------------
-
-* **``Calf`` (Base Estimator):** Best for massive sparse matrices (like 100,000+ text features) where cross-validation would be computationally prohibitive. It executes a single greedy forward-selection pass using fixed hyperparameters.
-* **``CalfCV`` (Cross-Validation Wrapper):** Best for dense tabular datasets. It automatically splits the data, runs parallel grid searches over candidate weights and early-stopping tolerances (``auc_tol``), and refits the best parameters on the full dataset.
-
+* **``max_features`` (int or None, default=None):** Maximum number of non-zero ternary weights allowed in the model (:math:`L_0` cardinality constraint). If ``None``, feature inclusion is unconstrained.
+* **``C`` (float, default=1.0):** Penalty parameter for classification margin slacks. Higher values penalize misclassifications more heavily.
+* **``time_limit`` (float, default=60.0):** Maximum allowable time in seconds allocated to the underlying MILP branch-and-bound solver. If the solver reaches this limit before proving global optimality, it automatically recovers and returns the best incumbent integer solution found.
+* **``mip_rel_gap`` (float, default=1e-4):** Relative MIP gap tolerance for early branch-and-bound termination. Allows the solver to stop once the incumbent solution is within this percentage of the theoretical optimal bound.
+* **``verbose`` (bool, default=False):** Enables real-time solver output logging during optimization to monitor branch-and-bound progress.
 
 Handling Multiclass Targets
 ---------------------------
 
-``Calf`` is fundamentally a binary classifier. Natively passing a target vector with more than two classes will result in an error. To perform multiclass classification, you must wrap the estimator in Scikit-Learn's ``OneVsRestClassifier``.
+``TlmMilpClassifier`` strictly supports binary classification targets. To use ternary linear models on multiclass problems, wrap the estimator in Scikit-Learn's ``OneVsRestClassifier`` or ``OneVsOneClassifier``.
 
 .. code-block:: python
 
     from sklearn.multiclass import OneVsRestClassifier
-    from calfcv import Calf
+    from tlmnet import TlmMilpClassifier
 
-    # This creates one binary Calf model per class
-    ovr_clf = OneVsRestClassifier(Calf(order_col=True))
-
-
-Feature Selection & Early Stopping (auc_tol)
---------------------------------------------
-
-``Calf`` does not use all available features. It evaluates all unselected columns and greedily appends the single feature that provides the highest cumulative ROC-AUC sum.
-
-The algorithm prevents overfitting using the ``auc_tol`` parameter. If the best remaining feature cannot improve the cumulative AUC by at least ``auc_tol``, the selection loop terminates automatically. This acts as a built-in feature selector, often reducing thousands of columns down to a sparse scorecard of 10 to 50 highly interpretable variables.
+    ovr_clf = OneVsRestClassifier(TlmMilpClassifier(max_features=10, C=1.0))
+    ovr_clf.fit(X_train, y_train)

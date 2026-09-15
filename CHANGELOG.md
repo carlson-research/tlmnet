@@ -5,18 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.4.0] - 2026-09-12
+## [0.1.0] - 2026-09-15
 
 ### Added
-* **Project Restructuring:** Refactored repository layout to a modern `src/` architecture (`src/calfcv`) .
-* **Documentation Suite:** Established Sphinx documentation using `pydata-sphinx-theme`, `numpydoc`, and `sphinx-gallery` engine .
-* **Build System Consolidation:** Consolidated documentation and release build logic into the root `Makefile`.
-* **Automated CI/CD Pipelines:** Configured GitHub Actions workflows for multi-Python matrix testing, automated GitHub Pages deployment, and OIDC Trusted Publisher PyPI release automation .
-* **Dynamic Packaging Metadata:** Implemented direct `pyproject.toml` metadata parsing within Sphinx configuration .
-
-## [0.1.0] - 2026-09-10
-
-### Added
-* **Core Estimators:** Initial implementation of `Calf` and `CalfCV` estimators providing Coarse Approximation Linear Function classification with coarse integer feature weighting .
-* **Scikit-Learn Compatibility:** Full compliance with Scikit-Learn estimator conventions and pipeline integration standards .
-* **Test Suite:** Established initial test suite verifying metric optimization, feature selection accuracy, and cross-validation procedures .
+* **Core Estimator:** Introduced `TlmMilpClassifier`, an exact Mixed-Integer Linear Programming (MILP) classifier for Quantized Statistical Learning with Ternary Linear Models ($w_j \in \{-1, 0, 1\}$).
+* **Exact MILP Solver:** Integrated `scipy.optimize.milp` using decision variable splitting ($w_j = u_j - v_j$) and mutual exclusivity constraints.
+* **Exact $L_0$ Cardinality Budgeting:** Support for strict feature selection upper bounds via the `max_features` parameter ($\sum |w_j| \le k$).
+* **Native Sparse Matrix Support:** Sparse block constraint assembly (`coo_matrix`, `hstack`) capable of processing high-dimensional text datasets (`CSR`, `CSC`, `COO`) without dense conversion.
+* **Scikit-Learn 1.6+ API Compliance:** Full integration with `Pipeline`, `OneVsRestClassifier`, confidence scoring via `decision_function`, and modern `__sklearn_tags__` (`input_tags.sparse = True`).
+* **Timeout & Incumbent Recovery:** Optimization logic that automatically recovers the best feasible integer solution found if solver execution reaches `time_limit`.
+* **Documentation & Example Gallery:** Sphinx documentation configured with `pydata-sphinx-theme` and executable example scripts in `sphinx-gallery`.
+* **Build System & CI/CD:** Modern `src/` layout, consolidated `Makefile`, and GitHub Actions workflows for multi-Python testing, GitHub Pages deployment, and PyPI release automation.

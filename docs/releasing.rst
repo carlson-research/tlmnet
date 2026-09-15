@@ -1,7 +1,7 @@
 Release Checklist & Workflow
 ============================
 
-Follow these steps when preparing a new version release for ``calfcv``.
+Follow these steps when preparing a new version release for ``tlmnet``.
 
 Pre-Release Verification
 ------------------------
@@ -10,14 +10,14 @@ Run local checks to ensure clean builds, full test coverage, strict linting, and
 
 .. code-block:: bash
 
-   pytest tests/ --cov=calfcv --cov-report=term-missing
+   pytest tests/ --cov=tlmnet --cov-report=term-missing
    pre-commit run --all-files
    make -C docs html
 
 Version & Changelog Update
 --------------------------
 
-1. Update ``__version__`` in ``src/calfcv/_version.py``.
+1. Update ``__version__`` in ``src/tlmnet/_version.py``.
 2. Move items from the ``[Unreleased]`` section into a new version header (e.g., ``[0.4.0] - 2026-09-12``) in ``CHANGELOG.md``.
 
 Commit, Tag, and Publish
@@ -37,7 +37,7 @@ For reference, the automated ``make release`` target executes the following manu
 .. code-block:: bash
 
    # Stage and commit version bump
-   git add src/calfcv/_version.py CHANGELOG.md
+   git add src/tlmnet/_version.py CHANGELOG.md
    git commit -m "bump: release vX.Y.Z"
 
    # Create annotated tag
