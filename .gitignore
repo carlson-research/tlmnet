@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & Editor settings
+.idea/
+.vscode/
+
+# C extensions
+*.so
+
+# Logs
+logs/
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Scripts
+scripts/
+
+# Environments & Packaging
+.venv/
+venv/
+ENV/
+env/
+.Python
+archive/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+pytest.ini
+
+# Sphinx documentation
+docs/_build/
+docs/generated/
+docs/jupyter_execute/
+.doctrees/
+docs/sg_execution_times.rst
+
+# Translations
+*.mo
+*.pot
+
+# PyBuilder
+target/

@@ -1,0 +1,3472 @@
+{
+ "Calf": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "calfcv.calf",
+   "module_short": "calfcv",
+   "name": "Calf"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "calfcv",
+   "module_short": "calfcv",
+   "name": "Calf"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "TransformerMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "TransformerMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._set_output",
+   "module_short": "sklearn.utils._set_output",
+   "name": "_SetOutputMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_SetOutputMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_SetOutputMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "calfcv",
+   "module_short": "calfcv",
+   "name": "Calf"
+  },
+  {
+   "is_class": false,
+   "is_explicit": true,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "Calf"
+  }
+ ],
+ "KNeighborsClassifier": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.neighbors._classification",
+   "module_short": "sklearn.neighbors",
+   "name": "KNeighborsClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.neighbors",
+   "module_short": "sklearn.neighbors",
+   "name": "KNeighborsClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "KNeighborsClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.neighbors._base",
+   "module_short": "sklearn.neighbors._base",
+   "name": "KNeighborsMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.neighbors",
+   "module_short": "sklearn.neighbors",
+   "name": "KNeighborsMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "KNeighborsMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.neighbors._base",
+   "module_short": "sklearn.neighbors._base",
+   "name": "NeighborsBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.neighbors",
+   "module_short": "sklearn.neighbors",
+   "name": "NeighborsBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "NeighborsBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "MultiOutputMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "MultiOutputMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.neighbors",
+   "module_short": "sklearn.neighbors",
+   "name": "KNeighborsClassifier"
+  }
+ ],
+ "LinearSVC": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.svm._classes",
+   "module_short": "sklearn.svm",
+   "name": "LinearSVC"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.svm",
+   "module_short": "sklearn.svm",
+   "name": "LinearSVC"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "LinearSVC"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._base",
+   "module_short": "sklearn.linear_model._base",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._base",
+   "module_short": "sklearn.linear_model._base",
+   "name": "SparseCoefMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "SparseCoefMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "SparseCoefMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.svm",
+   "module_short": "sklearn.svm",
+   "name": "LinearSVC"
+  }
+ ],
+ "MultinomialNB": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.naive_bayes",
+   "module_short": "sklearn.naive_bayes",
+   "name": "MultinomialNB"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "MultinomialNB"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.naive_bayes",
+   "module_short": "sklearn.naive_bayes",
+   "name": "_BaseDiscreteNB"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_BaseDiscreteNB"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.naive_bayes",
+   "module_short": "sklearn.naive_bayes",
+   "name": "_BaseNB"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_BaseNB"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.naive_bayes",
+   "module_short": "sklearn.naive_bayes",
+   "name": "MultinomialNB"
+  }
+ ],
+ "OneVsRestClassifier": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.multiclass",
+   "module_short": "sklearn.multiclass",
+   "name": "OneVsRestClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "OneVsRestClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "MultiOutputMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "MultiOutputMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "MetaEstimatorMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "MetaEstimatorMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.multiclass",
+   "module_short": "sklearn.multiclass",
+   "name": "OneVsRestClassifier"
+  }
+ ],
+ "Perceptron": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._perceptron",
+   "module_short": "sklearn.linear_model",
+   "name": "Perceptron"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "Perceptron"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "Perceptron"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._stochastic_gradient",
+   "module_short": "sklearn.linear_model._stochastic_gradient",
+   "name": "BaseSGDClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "BaseSGDClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseSGDClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._base",
+   "module_short": "sklearn.linear_model._base",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._stochastic_gradient",
+   "module_short": "sklearn.linear_model._stochastic_gradient",
+   "name": "BaseSGD"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "BaseSGD"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseSGD"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._base",
+   "module_short": "sklearn.linear_model._base",
+   "name": "SparseCoefMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "SparseCoefMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "SparseCoefMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "Perceptron"
+  }
+ ],
+ "RandomForestClassifier": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.ensemble._forest",
+   "module_short": "sklearn.ensemble",
+   "name": "RandomForestClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.ensemble",
+   "module_short": "sklearn.ensemble",
+   "name": "RandomForestClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "RandomForestClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.ensemble._forest",
+   "module_short": "sklearn.ensemble._forest",
+   "name": "ForestClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.ensemble",
+   "module_short": "sklearn.ensemble",
+   "name": "ForestClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ForestClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.ensemble._forest",
+   "module_short": "sklearn.ensemble._forest",
+   "name": "BaseForest"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.ensemble",
+   "module_short": "sklearn.ensemble",
+   "name": "BaseForest"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseForest"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "MultiOutputMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "MultiOutputMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.ensemble._base",
+   "module_short": "sklearn.ensemble",
+   "name": "BaseEnsemble"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.ensemble",
+   "module_short": "sklearn.ensemble",
+   "name": "BaseEnsemble"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEnsemble"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "MetaEstimatorMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "MetaEstimatorMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.ensemble",
+   "module_short": "sklearn.ensemble",
+   "name": "RandomForestClassifier"
+  }
+ ],
+ "RidgeClassifier": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._ridge",
+   "module_short": "sklearn.linear_model",
+   "name": "RidgeClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "RidgeClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "RidgeClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._ridge",
+   "module_short": "sklearn.linear_model._ridge",
+   "name": "_RidgeClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "_RidgeClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_RidgeClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._ridge",
+   "module_short": "sklearn.linear_model._ridge",
+   "name": "_BaseRidge"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "_BaseRidge"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_BaseRidge"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._base",
+   "module_short": "sklearn.linear_model._base",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._base",
+   "module_short": "sklearn.linear_model._base",
+   "name": "LinearModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "LinearModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "LinearModel"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "RidgeClassifier"
+  }
+ ],
+ "SGDClassifier": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._stochastic_gradient",
+   "module_short": "sklearn.linear_model",
+   "name": "SGDClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "SGDClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "SGDClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._stochastic_gradient",
+   "module_short": "sklearn.linear_model._stochastic_gradient",
+   "name": "BaseSGDClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "BaseSGDClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseSGDClassifier"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._base",
+   "module_short": "sklearn.linear_model._base",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "LinearClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._stochastic_gradient",
+   "module_short": "sklearn.linear_model._stochastic_gradient",
+   "name": "BaseSGD"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "BaseSGD"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseSGD"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ClassifierMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model._base",
+   "module_short": "sklearn.linear_model._base",
+   "name": "SparseCoefMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "SparseCoefMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "SparseCoefMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.linear_model",
+   "module_short": "sklearn.linear_model",
+   "name": "SGDClassifier"
+  }
+ ],
+ "TfidfVectorizer": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "TfidfVectorizer"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction",
+   "module_short": "sklearn.feature_extraction",
+   "name": "TfidfVectorizer"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "TfidfVectorizer"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "CountVectorizer"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction",
+   "module_short": "sklearn.feature_extraction",
+   "name": "CountVectorizer"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "CountVectorizer"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "_VectorizerMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction",
+   "module_short": "sklearn.feature_extraction",
+   "name": "_VectorizerMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_VectorizerMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "TfidfVectorizer"
+  }
+ ],
+ "X_test": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._csr",
+   "module_short": "scipy.sparse",
+   "name": "csr_matrix"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "csr_matrix"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "csr_matrix"
+  }
+ ],
+ "X_test.shape": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._csr",
+   "module_short": "scipy.sparse",
+   "name": "csr_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "csr_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "csr_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._matrix",
+   "module_short": "scipy.sparse",
+   "name": "spmatrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "spmatrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "spmatrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._csr",
+   "module_short": "scipy.sparse._csr",
+   "name": "_csr_base.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "_csr_base.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "_csr_base.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._compressed",
+   "module_short": "scipy.sparse._compressed",
+   "name": "_cs_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "_cs_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "_cs_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._data",
+   "module_short": "scipy.sparse._data",
+   "name": "_data_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "_data_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "_data_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._data",
+   "module_short": "scipy.sparse._data",
+   "name": "_minmax_mixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "_minmax_mixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "_minmax_mixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._index",
+   "module_short": "scipy.sparse._index",
+   "name": "IndexMixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "IndexMixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "IndexMixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._base",
+   "module_short": "scipy.sparse._base",
+   "name": "_spbase.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "_spbase.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "_spbase.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy._lib._sparse",
+   "module_short": "scipy._lib._sparse",
+   "name": "SparseABC.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy._lib",
+   "module_short": "scipy._lib",
+   "name": "SparseABC.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "SparseABC.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC.shape"
+  }
+ ],
+ "X_train": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._csr",
+   "module_short": "scipy.sparse",
+   "name": "csr_matrix"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "csr_matrix"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "csr_matrix"
+  }
+ ],
+ "X_train.shape": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._csr",
+   "module_short": "scipy.sparse",
+   "name": "csr_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "csr_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "csr_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._matrix",
+   "module_short": "scipy.sparse",
+   "name": "spmatrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "spmatrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "spmatrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._csr",
+   "module_short": "scipy.sparse._csr",
+   "name": "_csr_base.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "_csr_base.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "_csr_base.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._compressed",
+   "module_short": "scipy.sparse._compressed",
+   "name": "_cs_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "_cs_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "_cs_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._data",
+   "module_short": "scipy.sparse._data",
+   "name": "_data_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "_data_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "_data_matrix.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._data",
+   "module_short": "scipy.sparse._data",
+   "name": "_minmax_mixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "_minmax_mixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "_minmax_mixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._index",
+   "module_short": "scipy.sparse._index",
+   "name": "IndexMixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "IndexMixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "IndexMixin.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse._base",
+   "module_short": "scipy.sparse._base",
+   "name": "_spbase.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy.sparse",
+   "module_short": "scipy.sparse",
+   "name": "_spbase.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "_spbase.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy._lib._sparse",
+   "module_short": "scipy._lib._sparse",
+   "name": "SparseABC.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy._lib",
+   "module_short": "scipy._lib",
+   "name": "SparseABC.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "scipy",
+   "module_short": "scipy",
+   "name": "SparseABC.shape"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "abc",
+   "module_short": "abc",
+   "name": "ABC.shape"
+  }
+ ],
+ "accuracy_score": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.metrics",
+   "module_short": "sklearn.metrics",
+   "name": "accuracy_score"
+  }
+ ],
+ "ax": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Axes"
+  }
+ ],
+ "ax.barh": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.barh"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.barh"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Axes.barh"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._base",
+   "module_short": "matplotlib.axes._base",
+   "name": "_AxesBase.barh"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "_AxesBase.barh"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "_AxesBase.barh"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.artist",
+   "module_short": "matplotlib.artist",
+   "name": "Artist.barh"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Artist.barh"
+  }
+ ],
+ "ax.grid": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.grid"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.grid"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Axes.grid"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._base",
+   "module_short": "matplotlib.axes._base",
+   "name": "_AxesBase.grid"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "_AxesBase.grid"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "_AxesBase.grid"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.artist",
+   "module_short": "matplotlib.artist",
+   "name": "Artist.grid"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Artist.grid"
+  }
+ ],
+ "ax.invert_yaxis": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.invert_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.invert_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Axes.invert_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._base",
+   "module_short": "matplotlib.axes._base",
+   "name": "_AxesBase.invert_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "_AxesBase.invert_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "_AxesBase.invert_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.artist",
+   "module_short": "matplotlib.artist",
+   "name": "Artist.invert_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Artist.invert_yaxis"
+  }
+ ],
+ "ax.legend": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Axes.legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._base",
+   "module_short": "matplotlib.axes._base",
+   "name": "_AxesBase.legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "_AxesBase.legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "_AxesBase.legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.artist",
+   "module_short": "matplotlib.artist",
+   "name": "Artist.legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Artist.legend"
+  }
+ ],
+ "ax.set_title": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Axes.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._base",
+   "module_short": "matplotlib.axes._base",
+   "name": "_AxesBase.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "_AxesBase.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "_AxesBase.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.artist",
+   "module_short": "matplotlib.artist",
+   "name": "Artist.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Artist.set_title"
+  }
+ ],
+ "ax.set_yticklabels": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.set_yticklabels"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.set_yticklabels"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Axes.set_yticklabels"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._base",
+   "module_short": "matplotlib.axes._base",
+   "name": "_AxesBase.set_yticklabels"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "_AxesBase.set_yticklabels"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "_AxesBase.set_yticklabels"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.artist",
+   "module_short": "matplotlib.artist",
+   "name": "Artist.set_yticklabels"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Artist.set_yticklabels"
+  }
+ ],
+ "ax.set_yticks": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.set_yticks"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "Axes.set_yticks"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Axes.set_yticks"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes._base",
+   "module_short": "matplotlib.axes._base",
+   "name": "_AxesBase.set_yticks"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.axes",
+   "module_short": "matplotlib.axes",
+   "name": "_AxesBase.set_yticks"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "_AxesBase.set_yticks"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.artist",
+   "module_short": "matplotlib.artist",
+   "name": "Artist.set_yticks"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Artist.set_yticks"
+  }
+ ],
+ "benchmark": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  }
+ ],
+ "categories": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "clf_names": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "tuple"
+  }
+ ],
+ "data_test": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._bunch",
+   "module_short": "sklearn.utils",
+   "name": "Bunch"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "Bunch"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "Bunch"
+  }
+ ],
+ "data_test.data": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "data_test.target": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "data_train": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._bunch",
+   "module_short": "sklearn.utils",
+   "name": "Bunch"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "Bunch"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "Bunch"
+  }
+ ],
+ "data_train.data": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "data_train.target": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "fetch_20newsgroups": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.datasets",
+   "module_short": "sklearn.datasets",
+   "name": "fetch_20newsgroups"
+  }
+ ],
+ "fig": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.figure",
+   "module_short": "matplotlib.figure",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib",
+   "module_short": "matplotlib",
+   "name": "Figure"
+  }
+ ],
+ "indices": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "np.arange": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "builtin_function_or_method"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "arange"
+  }
+ ],
+ "np.array": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "builtin_function_or_method"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "array"
+  }
+ ],
+ "np.max": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "_ArrayFunctionDispatcher"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "max"
+  }
+ ],
+ "plt.show": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.pyplot",
+   "module_short": "matplotlib.pyplot",
+   "name": "show"
+  }
+ ],
+ "plt.subplots": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.pyplot",
+   "module_short": "matplotlib.pyplot",
+   "name": "subplots"
+  }
+ ],
+ "plt.tight_layout": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "matplotlib.pyplot",
+   "module_short": "matplotlib.pyplot",
+   "name": "tight_layout"
+  }
+ ],
+ "results": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "results.append": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "builtin_function_or_method"
+  }
+ ],
+ "scores": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "tuple"
+  }
+ ],
+ "sklearn.multiclass.OneVsRestClassifier": [
+  {
+   "is_class": false,
+   "is_explicit": true,
+   "module": "sklearn.multiclass",
+   "module_short": "sklearn.multiclass",
+   "name": "OneVsRestClassifier"
+  }
+ ],
+ "test_times": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "tuple"
+  }
+ ],
+ "test_times_norm": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "time": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "builtin_function_or_method"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "time",
+   "module_short": "time",
+   "name": "time"
+  }
+ ],
+ "train_times": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "tuple"
+  }
+ ],
+ "train_times_norm": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "vectorizer": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "TfidfVectorizer"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction",
+   "module_short": "sklearn.feature_extraction",
+   "name": "TfidfVectorizer"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "TfidfVectorizer"
+  }
+ ],
+ "vectorizer.fit_transform": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "TfidfVectorizer.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction",
+   "module_short": "sklearn.feature_extraction",
+   "name": "TfidfVectorizer.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "TfidfVectorizer.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "CountVectorizer.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction",
+   "module_short": "sklearn.feature_extraction",
+   "name": "CountVectorizer.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "CountVectorizer.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "_VectorizerMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction",
+   "module_short": "sklearn.feature_extraction",
+   "name": "_VectorizerMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_VectorizerMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester.fit_transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester.fit_transform"
+  }
+ ],
+ "vectorizer.transform": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "TfidfVectorizer.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction",
+   "module_short": "sklearn.feature_extraction",
+   "name": "TfidfVectorizer.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "TfidfVectorizer.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "CountVectorizer.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction",
+   "module_short": "sklearn.feature_extraction",
+   "name": "CountVectorizer.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "CountVectorizer.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction.text",
+   "module_short": "sklearn.feature_extraction.text",
+   "name": "_VectorizerMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.feature_extraction",
+   "module_short": "sklearn.feature_extraction",
+   "name": "_VectorizerMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_VectorizerMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "ReprHTMLMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "ReprHTMLMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "ReprHTMLMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "ReprHTMLMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html.base",
+   "module_short": "sklearn.utils._repr_html.base",
+   "name": "_HTMLDocumentationLinkMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._repr_html",
+   "module_short": "sklearn.utils._repr_html",
+   "name": "_HTMLDocumentationLinkMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester.transform"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester.transform"
+  }
+ ],
+ "y_test": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "y_train": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ]
+}
