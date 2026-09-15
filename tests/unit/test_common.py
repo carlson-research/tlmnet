@@ -1,11 +1,10 @@
 from sklearn.utils.estimator_checks import parametrize_with_checks
-from calfcv import Calf, CalfCV, AUCSorter
+from tlmnet import TlmMilpClassifier
 
 
-@parametrize_with_checks([Calf(), CalfCV(), AUCSorter()])
+@parametrize_with_checks([TlmMilpClassifier()])
 def test_all_estimators(estimator, check):
-    """Validates that Calf, CalfCV, and AUCSorter adhere strictly to the scikit-learn
-
-    BaseEstimator, ClassifierMixin, and TransformerMixin API conventions.
+    """Validates that TlmMilpClassifier adheres strictly to
+    scikit-learn API conventions.
     """
     check(estimator)

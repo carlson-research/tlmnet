@@ -5,9 +5,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "calfcv"
+name = "tlmnet"
 dynamic = ["version"]
-description = "Coarse Approximation Linear Function (CALF) Classifier"
+description = "Ternary Linear Models via Exact MILP Solvers"
 readme = "README.md"
 authors = [
     {name = "Carlson Research, LLC", email = "rolf@hrolfrc.com"}
@@ -33,9 +33,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/carlson-research/calfcv"
-Repository = "https://github.com/carlson-research/calfcv"
-Documentation = "https://carlson-research.github.io/calfcv/"
+Homepage = "https://github.com/carlson-research/tlmnet"
+Repository = "https://github.com/carlson-research/tlmnet"
+Documentation = "https://carlson-research.github.io/tlmnet/"
 
 [project.optional-dependencies]
 dev = [
@@ -54,19 +54,22 @@ dev = [
 ]
 
 [tool.coverage.run]
-source = ["src/calfcv"]
+source = ["src/tlmnet"]
 omit = [
-    "src/calfcv/__main__.py",
+    "src/tlmnet/__main__.py",
 ]
 
 [tool.setuptools.dynamic]
-version = {attr = "calfcv._version.__version__"}
+version = {attr = "tlmnet._version.__version__"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["calfcv*"]
+include = ["tlmnet*"]
 
 [tool.pytest.ini_options]
+filterwarnings = [
+    "ignore:Passing a non-Collection iterable to parametrize is deprecated:pytest.PytestRemovedIn10Warning",
+]
 addopts = "--doctest-modules"
 pythonpath = [".", "src"]
 testpaths = ["tests", "src"]
